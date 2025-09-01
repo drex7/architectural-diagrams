@@ -32,36 +32,25 @@
         <mxCell id="CrnxRpwwhRu_VbGlGBKg-22" value="Authentication Service" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CrnxRpwwhRu_VbGlGBKg-23" vertex="1">
           <mxGeometry x="157.57383966244723" width="454.85232067510543" height="65.71428571428571" as="geometry" />
         </mxCell>
-        <mxCell id="CrnxRpwwhRu_VbGlGBKg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CrnxRpwwhRu_VbGlGBKg-23" source="CrnxRpwwhRu_VbGlGBKg-7" target="CrnxRpwwhRu_VbGlGBKg-35" edge="1">
+        <mxCell id="CrnxRpwwhRu_VbGlGBKg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CrnxRpwwhRu_VbGlGBKg-23" source="CrnxRpwwhRu_VbGlGBKg-7" target="CrnxRpwwhRu_VbGlGBKg-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="66" y="120" />
             </Array>
+            <mxPoint x="180" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CrnxRpwwhRu_VbGlGBKg-7" value="Auth API&amp;nbsp;&lt;div&gt;Functions&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="CrnxRpwwhRu_VbGlGBKg-23" vertex="1">
           <mxGeometry x="27" y="180" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="CrnxRpwwhRu_VbGlGBKg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CrnxRpwwhRu_VbGlGBKg-23" source="CrnxRpwwhRu_VbGlGBKg-33" target="CrnxRpwwhRu_VbGlGBKg-36" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CrnxRpwwhRu_VbGlGBKg-33" value="USerReg Queue" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="CrnxRpwwhRu_VbGlGBKg-23" vertex="1">
-          <mxGeometry x="310" y="73.20999999999998" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="CrnxRpwwhRu_VbGlGBKg-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="CrnxRpwwhRu_VbGlGBKg-23" source="CrnxRpwwhRu_VbGlGBKg-35" target="CrnxRpwwhRu_VbGlGBKg-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CrnxRpwwhRu_VbGlGBKg-35" value="Auth Webhooks&lt;div&gt;(post-confirm)&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;" parent="CrnxRpwwhRu_VbGlGBKg-23" vertex="1">
-          <mxGeometry x="180" y="65.71000000000001" width="70" height="93" as="geometry" />
-        </mxCell>
         <mxCell id="CrnxRpwwhRu_VbGlGBKg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CrnxRpwwhRu_VbGlGBKg-23" source="CrnxRpwwhRu_VbGlGBKg-36" target="CrnxRpwwhRu_VbGlGBKg-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CrnxRpwwhRu_VbGlGBKg-36" value="User Registration&lt;div&gt;Function&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="CrnxRpwwhRu_VbGlGBKg-23" vertex="1">
-          <mxGeometry x="440" y="73.21" width="78" height="78" as="geometry" />
+          <mxGeometry x="260" y="73" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrnxRpwwhRu_VbGlGBKg-37" value="User Table" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="CrnxRpwwhRu_VbGlGBKg-23" vertex="1">
-          <mxGeometry x="570" y="73" width="78" height="78" as="geometry" />
+          <mxGeometry x="420" y="73" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrnxRpwwhRu_VbGlGBKg-28" value="Cognito Backup Table" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="CrnxRpwwhRu_VbGlGBKg-23" vertex="1">
           <mxGeometry x="492" y="258" width="78" height="78" as="geometry" />
